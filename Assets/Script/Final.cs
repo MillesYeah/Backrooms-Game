@@ -7,7 +7,8 @@ public class Final : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player entrou na zona de finalização!");
-            SceneManager.LoadScene("BSOD");
+            SceneManager.LoadScene("BSOD 1");
+            //BAZINGA
         }
     }
 }
